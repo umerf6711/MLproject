@@ -7,15 +7,6 @@ from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
-# BAD: Inline configuration with hardcoded values
-app.config['ENVIRONMENT'] = "development"
-app.config['FLASK_APP'] = "my-app"
-app.config['FLASK_DEBUG'] = True
-app.config['SECRET_KEY'] = "GDtfD^&$%@^8tgYjD"
-
-# BAD: Changing config values in code
-app.config['ENVIRONMENT'] = "development"
-
 app=application
 
 ## Route for the home page
