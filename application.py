@@ -7,12 +7,6 @@ from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
-application.config.update(
-    FLASK_APP="my-app",
-    FLASK_DEBUG=True,
-    SECRET_KEY="GDtfD^&$%@^8tgYjD",
-)
-
 app=application
 
 ## Route for the home page
