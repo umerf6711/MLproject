@@ -4,7 +4,7 @@ Go to GitHub profile and create a new reposistory named it 'ML Project' .
 
 Create a folder in local drive named as 'ML Project' , copy its path and past it in anaconda prompt as 'cd D:\dataScience\ML Project'. Now move to this drive in anaconda prompt as D: and type 'code .' to open VS.
 
-First of all create a new enviroment named as 'venv' by typing 'conda create -p venv python==3.8 -y'. -y is for permission to create venv. 
+First of all create a new enviroment named as 'venv' by typing 'conda create -p venv python==3.10 -y'. -y is for permission to create venv. 
 
 Activate created enviroment 'conda activate venv/'
 
